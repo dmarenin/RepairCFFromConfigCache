@@ -1,0 +1,13 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://t-simvol.ru/server/printReport" elementFormQualified="false">
+	<objectType name="printReport">
+		<property xmlns:d3p1="http://t-simvol.ru/server/printReport" name="product" type="d3p1:product"/>
+	</objectType>
+	<objectType name="product">
+		<property name="gtin" type="xs:string"/>
+		<property name="date" type="xs:date"/>
+		<property name="reportID" type="xs:string"/>
+		<property name="totalQuantity" type="xs:int"/>
+		<property name="quantity" type="xs:int"/>
+		<property name="badCodeCount" type="xs:int"/>
+	</objectType>
+</package>
